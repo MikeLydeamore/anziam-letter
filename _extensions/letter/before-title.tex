@@ -12,29 +12,23 @@
 \makeatletter
 \def\ps@monash{%
 \begin{textblock}{4}(2,1)
-\includegraphics[height=1.5cm]{monash2}
+  \includegraphics[height=2cm]{anziam}
 \end{textblock}%
-\begin{textblock}{4}(17,1)
-\includegraphics[height=1.5cm]{MBSportrait}
+\begin{textblock}{4}(11,1)
+%
 \end{textblock}%
 \begin{textblock}{10}(1.2,26.4)
 {\fontsize{9}{8}\selectfont\sffamily\color[gray]{0.4}%
 \begin{tabular}{@{}l@{}}
 \textbf{$for(authors)$$it.name.literal$$endfor$}, $if(qualifications)$$qualifications$$endif$\\
 $if(position)$$position$\\$endif$
-Department of Econometrics \& Business Statistics\\
-Monash University, Victoria 3800, Australia.\\[0.15cm]
+Australia and New Zealand Industrial \& Applied Mathematics (ANZIAM)\\[0.15cm]
 $if(email)$\faicon{envelope} $email$\quad$endif$
 $if(phone)$\faicon{phone} $phone$\quad$endif$
 $if(www)$\faicon{home} $www$$endif$\\[0.1cm]
-ABN: 12 377 614 012\quad CRICOS Provider Number: 00008C
+ABN: 60 640 672 511
 \end{tabular}}
 \end{textblock}%
-\begin{textblock}{7}(12.7,28.2)\hfill
-\includegraphics[height=0.6cm]{AACSB}~~~
-\includegraphics[height=0.6cm]{EQUIS}~~~
-\includegraphics[height=0.6cm]{AMBA}
-\end{textblock}
 \def\thepage{}}
 
 \@ifundefined{opening}{}{%
